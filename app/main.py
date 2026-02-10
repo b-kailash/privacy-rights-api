@@ -1,9 +1,12 @@
 from fastapi import FastAPI
 
+from app.core.config import settings
+
 app = FastAPI(
-    title="Privacy Rights API",
-    description="GDPR/CCPA Data Subject Request Service",
-    version="1.0.0",
+    title=settings.APP_TITLE,
+    description=settings.APP_DESCRIPTION,
+    version=settings.APP_VERSION,
+    debug=settings.DEBUG,
     docs_url="/docs",
     redoc_url="/redoc",
 )
@@ -11,4 +14,4 @@ app = FastAPI(
 
 @app.get("/")
 async def root():
-    return {"service": "Privacy Rights API", "version": "1.0.0"}
+    return {"service": settings.APP_TITLE, "version": settings.APP_VERSION}
