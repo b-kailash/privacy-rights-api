@@ -6,9 +6,9 @@
 |----------|-------|--------|-------|
 | PB-001 | Project scaffolding | Done | Reviewed & approved |
 | PB-002 | Docker Compose setup | To Do | |
-| PB-003 | Async SQLAlchemy + asyncpg setup | To Do | |
+| PB-003 | Async SQLAlchemy + asyncpg setup | Done | Reviewed & approved |
 | PB-004 | Alembic migration configuration | To Do | |
-| PB-005 | Configuration management (pydantic-settings) | To Do | |
+| PB-005 | Configuration management (pydantic-settings) | Done | Reviewed & approved |
 | PB-006 | Health check endpoint | To Do | |
 | PB-007 | Test infrastructure (pytest + pytest-asyncio) | To Do | |
 | PB-008 | Ruff linting configuration | To Do | |
